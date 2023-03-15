@@ -23,11 +23,13 @@ Display the image until the loop gets over
 ### Step 5:
 Rotate the image using cv2.rotate(smaller_frame,cv2.cv2.ROTATE_180)
 ## Program:
+
+## i) Write the frame as JPG file:
 ``` Python
 ### Developed By: YUVARAJ.S
 ### Register No: 22008589
 
-## i) Write the frame as JPG file
+
 
 import cv2
 
@@ -41,8 +43,9 @@ while(True):
 videoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
-```python
+
 ## ii) Display the video
+```python
 ### Developed By: YUVARAJ.S
 ### Register No: 22008589
 import numpy as np
@@ -58,11 +61,13 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
-
+## iii) Display the video by resizing the window
 ```python
+
+
 ### Developed By: YUVARAJ.S
 ### Register No: 22008589
-## iii) Display the video by resizing the window
+
 
 import numpy as np
 import cv2
@@ -87,12 +92,15 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 ```
+## iv) Rotate and display the video
 ```python
+
+
+
 ### Developed By: YUVARAJ.S
 ### Register No: 22008589
 
 
-## iv) Rotate and display the video
 
 import numpy as np
 import cv2
