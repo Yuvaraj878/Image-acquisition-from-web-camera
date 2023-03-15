@@ -42,9 +42,9 @@ videoCaptureObject.release()
 cv2.destroyAllWindows()
 ```
 ```python
+## ii) Display the video
 ### Developed By: YUVARAJ.S
 ### Register No: 22008589
-## ii) Display the video
 import numpy as np
 import cv2
 
